@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Landing Page</title>
+    <link rel="stylesheet" href="landing1page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<style>
+        *{
+          padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;
+         }
+
+/*font-family: 'Dancing Script', cursive;
+*/
+          .nav1{
+          width: 100%;
+          height: 50px;
+          color: rgb(76, 91, 227);
+          background: #6da1dd;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+         .nav1{
+          margin: 0 5px;
+
+        }
+          .nav1 a{
+           text-decoration: none;
+           color: rgb(33, 27, 66);
+           padding: 5px 10px;
+           background: #fbe6d3;
+        }
+          .nav2{
+           width: 100%;
+           height: 80px;
+           color: rgb(27, 28, 28);
+           background: rgb(221, 93, 138);
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding: 0px 70px;
+        }
+          .menu a{
+           text-decoration: none;
+           color: rgb(34, 10, 10);
+           padding: 10px 20px;
+           position: relative;
+        }
+           .menu a:before{
+                content:'' ;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 100%;
+                border-bottom: 3px solid indianred;
+                transition: 0.4s linear;
+
+        }
+            .menu a:hover:before{
+                width: 90%;
+        }
+
+            header{
+             width: 100%;
+             height: 100vh;
+             background: url("https://th.bing.com/th/id/R.4df1838fe55649e7d7a840250bff3f04?rik=bmpl1X%2fL3f3rtQ&riu=http%3a%2f%2fwww.cue.ac.kr%2fattach%2fIMAGE%2fmimban%2fTMPL02%2f2020%2f2%2fclyRBod5mGM4x4K23jET.jpg&ehk=J5eTRR0znxyaglRFOcU0x53co%2bZsh3eL1KDTeQ%2fkcZQ%3d&risl=&pid=ImgRaw&r=0");
+            background-size: 100% 100%;
+
+        }
+            .h-text{
+             max-width: 600px;
+             color: rgb(15, 15, 15);
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%,-50%);
+             text-align: center;
+
+        }
+           .h-text h1{font-size: 4em;
+              font-family: 'Dancing Script', cursive;
+        }
+            .h-text span{
+             color: #110f0f;
+             font-family: 'Dancing Script', cursive;
+        }
+            .h-text p{
+             font-size: 30px;
+             margin: 40px 0;
+             line-height: 30px;
+
+        }
+            .h-text a{
+              text-decoration: none;
+              color: white;
+              background: #e67e22;
+              padding: 10px 20px;
+              margin: 0 15px;
+              letter-spacing: 5px;
+        }
+            .h-text a:hover{
+              background: transparent;
+              border: 1px solid rgb(232, 134, 134);
+        }
+</style>
+<body>
+    <header>
+        <nav class="nav1">
+            
+            <div style="margin-left: 1200px;">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-google"></i>
+                <i class="fa fa-twitter"></i>
+                <a href="#">Signup</a>
+                <a href="#">Signin</a>
+            </div>
+        </nav>
+    <nav class="nav2">
+        <div>
+            <h1 style="font-size: xx-large;">Journey Starts Here</h1>
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Admission</a>
+            <a href="#">Courses</a>
+            <a href="#">Events</a>
+            <a href="#">Pages</a>
+            <a href="#">Students</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <div class="h-text">
+        <h1>Welcome To <span>College</span></h1>
+        <p>“The journey is the destination.<br>A Great Place For Education."</p>
+         <a href="#">Courses</a>
+         <a href="#">Learn more</a>
+    </div>
+
+    </header>
+    
+</body>
+</html>
